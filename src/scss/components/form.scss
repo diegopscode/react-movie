@@ -1,0 +1,53 @@
+.form-group {
+    margin-bottom: 15px;
+
+    label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    input {
+        outline: none;
+    }
+    
+    .form-control {
+        display: block;
+        width: 100%;
+        font-size: 16px;
+    }
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    padding: 7px 15px;
+    -webkit-appearance: none;
+    outline: none;
+
+    border-radius: 3px;
+    border: 2px solid $blue;
+    background-color: $white;
+    color: $blue;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    transition: all .2s ease;
+
+    &:hover {
+        background-color: $blue;
+        color: $white;
+    }
+
+    &.btn-success {
+        border-color: $green;
+        background-color: $white;
+        color: $green;
+
+        &:hover {
+            background-color: $green;
+            color: $white;
+        }
+    }
+}
