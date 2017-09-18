@@ -1,6 +1,6 @@
-# React Quick Start
+# React Movie Quiz
 
-Boilerplate com Webpack, React Route Dom, ES2015
+Quiz em react
 
 Primeiro Passo
 <pre>
@@ -12,7 +12,7 @@ Para iniciar
   npm start
 </pre>
 
-Endereço
+Link
 <pre>
   http://localhost:8080/
 </pre>
